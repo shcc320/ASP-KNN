@@ -22,8 +22,6 @@ asp-knn-reproducibility/
 ├── scripts/
 │   ├── make_iris_facts.py   # Iris preprocessing/fact-generation example
 │   └── run_example.py       # command-line runner for examples
-├── tests/
-│   └── test_static_alignment.py  # optional static consistency checks
 ├── docs/
 │   └── lp_alignment_note.md # mapping from manuscript descriptions to LP files
 └── requirements.txt
@@ -123,23 +121,6 @@ python scripts/make_iris_facts.py --out examples/iris_small.lp --k 3 --scale 100
 python scripts/run_example.py --mode v0 --facts examples/iris_small.lp
 ```
 
-## Optional static alignment test
-
-`tests/test_static_alignment.py` is not a manuscript experiment and does not replace solver-based reproduction. It is an optional repository-maintenance check that verifies the released LP files still contain the key rules described in the paper: stable ranking, top-k neighbor selection, vote aggregation, lexicographic tie-breaking, exclusion-aware allowed-label argmax, and two-level soft preference optimization.
-
-Install pytest if needed:
-
-```bash
-python -m pip install pytest
-```
-
-Run the static test:
-
-```bash
-python -m pytest tests/test_static_alignment.py
-```
-
-This test does not require `clingo`, `gringo`, or `clasp`; it only checks the text of the LP files. Passing this test means the repository has not accidentally removed or renamed core rules. It does not prove that all experimental results in the manuscript are reproduced.
 
 ## Manuscript alignment
 
