@@ -89,6 +89,13 @@ python scripts/run_example.py --mode forbid
 
 Here, `forbid(q1,setosa).` is added, so the allowed-label argmax selects the best non-forbidden label for `q1`.
 
+Expected final labels include:
+
+```text
+assigned_label(q1,versicolor)
+assigned_label(q2,versicolor)
+```
+
 Run the soft-preference example:
 
 ```bash
