@@ -1,6 +1,6 @@
 # LP alignment note
 
-This repository is intentionally a minimal reproducibility package rather than a complete archive of every experiment.
+This repository is intentionally a reproducibility materials package rather than a complete archive of every experiment.
 
 ## Manuscript-to-code mapping
 
