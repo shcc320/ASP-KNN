@@ -154,10 +154,3 @@ The core encoding follows the paper's pipeline:
 
 See `docs/lp_alignment_note.md` for a file-by-file mapping from the manuscript to the released LP files.
 
-## Scope and reproducibility statement
-
-This public repository contains the ASP-KNN encoding, example datasets/facts, and preprocessing scripts corresponding to the reproducibility statement in the manuscript:
-
-> To support reproducibility, the ASP-KNN encoding, example datasets, and preprocessing scripts used in this study are available from the corresponding author upon reasonable request. A public repository containing these materials will be provided upon acceptance of the manuscript.
-
-The repository name therefore avoids the word `minimal` in the public-facing title. The scope is described as a reproducibility-materials repository rather than a complete experiment-reproduction archive.
