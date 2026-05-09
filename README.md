@@ -52,19 +52,6 @@ Download/install references:
 - clasp releases: https://github.com/potassco/clasp/releases
 - Potassco guide: https://github.com/potassco/guide
 
-Typical installation commands depend on the operating system:
-
-```bash
-# macOS with Homebrew
-brew install clingo
-
-# Ubuntu/Debian; package naming may expose gringo/clasp separately
-sudo apt-get update
-sudo apt-get install clingo
-
-# Conda, often convenient on Windows/Linux/macOS
-conda install -c conda-forge clingo
-```
 
 After installation, verify one of the following:
 
