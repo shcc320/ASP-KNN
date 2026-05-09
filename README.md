@@ -4,7 +4,7 @@ This repository provides reproducibility materials for the manuscript:
 
 **ASP-KNN: A Declarative, Constraint-Aware, and Explainable Reformulation of k-Nearest Neighbors in Answer Set Programming**
 
-It contains the ASP-KNN encodings, example ASP fact files, and preprocessing scripts corresponding to the method described in the manuscript. The repository is intended to make the released encoding and example pipeline inspectable and runnable. It is not a full archival dump of every experimental script used to produce all tables in the paper.
+It contains the ASP-KNN encodings, example ASP fact files, and preprocessing scripts corresponding to the method described in the manuscript. The repository is intended to make the released encoding and example pipeline inspectable and runnable. 
 
 ## Repository structure
 
