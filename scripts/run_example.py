@@ -20,7 +20,7 @@ def run_with_clingo(files: list[Path]) -> str:
     if not exe:
         raise FileNotFoundError("clingo not found")
     cmd = [exe, "--opt-mode=optN", "--quiet=1"] + [str(f) for f in files]
-    return subprocess.check_output(cmd, cwd=ROOT, text=True, stderr=subprocess.STDOUT)
+    return subprocess.run(cmd, cwd=ROOT, text=True, stderr=subprocess.STDOUT)
 
 
 def run_with_gringo_clasp(files: list[Path]) -> str:
