@@ -28,4 +28,3 @@ The repository provides:
 - a small Iris fact-generation script showing preprocessing and integer distance scaling;
 - a simple runner script.
 
-It does not include the full cross-validation experimental code for every table, which is consistent with the manuscript statement that the public repository contains the encoding, example datasets, and preprocessing scripts.
