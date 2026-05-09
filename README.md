@@ -39,12 +39,6 @@ python -m pip install -r requirements.txt
 
 The examples require a Potassco ASP command-line solver, not only a Python package.
 
-Recommended option:
-
-```bash
-clingo --version
-```
-
 The manuscript runtime section used the Potassco toolchain with `gringo 5.7.1` and `clasp 3.3.10`. In practice, the repository runner supports either:
 
 1. `clingo`, the combined grounder-and-solver executable; or
